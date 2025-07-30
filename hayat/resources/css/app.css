@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'flowbite';
+
+@font-face {
+    font-family: farsi;
+    src: url(/../fonts/HAKAZA.TTF);
+  }
+  
+  * {
+    font-family: farsi;
+  }
+
+/* select color */
+::selection {
+    background-color: #eaeaea;
+    color: #5d96b5;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;  
+    
+}
+
